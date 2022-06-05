@@ -4,7 +4,7 @@
 
 /**
  * main - Check sign on int
- * Description: a round number c program
+ *
  * Return: 0
  */
 int main(void)
