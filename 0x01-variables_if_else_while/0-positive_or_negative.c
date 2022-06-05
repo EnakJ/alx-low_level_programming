@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Check sign on int
+ *main - Check sign on int
  *
- * Return: 0
+ *Return: 0
  */
 int main(void)
 {
@@ -16,12 +16,10 @@ int main(void)
 	if (n == 0)
 	{
 		printf("%d is zero\n",n);
-	}
-       	else if (n > 0)
+	} else if (n > 0)
 	{
 		printf("%d is positive\n",n);
-	}
-       	else
+	} else
 	{
 		printf("%d is negative\n",n);
 	}
