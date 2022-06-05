@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - print letters
  *
@@ -7,11 +7,10 @@
  */
 int main(void)
 {
-	int i;
-	for (i = 97 ; i < 122 ; i ++)
+	char i;
+	for (i = 97; i < 122; i++)
 	{
-		printf("%c", i);
-		printf();
+		putchar(i);
 	}
 	return (0);
 }
