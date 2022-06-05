@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - print letters
  *
@@ -11,6 +12,7 @@ int main(void)
 	for (i = 97; i < 122; i++)
 	{
 		putchar (i);
+		puts();
 	}
 	return (0);
 }
