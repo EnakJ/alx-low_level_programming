@@ -1,11 +1,10 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
- /**
+#include <stdio.h>
+/**
  * main - Check sign on int
  *
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
