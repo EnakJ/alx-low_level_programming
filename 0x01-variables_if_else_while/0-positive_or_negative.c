@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Check sign on int
- *
+ * main - Check sign on int*
  * Return: 0
  */
 int main(void)
