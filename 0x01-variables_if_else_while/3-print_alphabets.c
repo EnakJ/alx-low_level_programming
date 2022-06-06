@@ -2,24 +2,26 @@
 #include <stdlib.h>
 
 /**
- *main - Entry point
+ * main - print alphabets
  *
- *Return: 0
+ * Return: 0
  */
 int main(void)
 {
 	int i = 97;
-	int end = 122;
 
-	for (; i <= end; i++)
+	while (i <= 122)
 	{
 		putchar(i);
-		if (i == end)
-		{
-			i = 65;
-			end = 90;
-		}
+		i++;
 	}
-	putchar('\n');
+	i = 65;
+
+	while (i <= 90)
+	{
+		putchar(i);
+		i++;
+	}
+	putchar("\n");
 	return (0);
 }
