@@ -12,8 +12,9 @@ int main(void)
 
 	for (i = 97; i < 123; i++)
 	{
-		if (i == 101 || i == 113)
+		if (i == 100 || i == 112)
 		{
+			putchar(i);
 			i++;
 		} else
 		putchar(i);
