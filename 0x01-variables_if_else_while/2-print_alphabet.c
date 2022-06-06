@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - print letters
+ *main - Print alphabet letters
  *
- * Return:0
+ *Return:0
  */
 int main(void)
 {
