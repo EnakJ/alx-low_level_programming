@@ -18,6 +18,6 @@ int main(void)
 		} else
 		putchar(i);
 	}
-	printf("");
+	printf("\n");
 	return (0);
 }
