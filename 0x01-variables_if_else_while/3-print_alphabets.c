@@ -8,16 +8,18 @@
  */
 int main(void)
 {
-	int i;
+	int i = 97;
+	int end = 122;
 
-	for (i = 97; i < 123; i++)
+	for (; i <= end; i++)
 	{
 		putchar(i);
+		if (i == end)
+		{
+			i = 65;
+			end = 90;
+		}
 	}
-	for (i = 65; i < 91; i++)
-	{
-		putchar(i);
-	}
-	printf("");
+	putchar('\n');
 	return (0);
 }
