@@ -14,5 +14,4 @@ int main(void)
 	{
 		putchar(i);
 	}
-	println("\n");
 }
