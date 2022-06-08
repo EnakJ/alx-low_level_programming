@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include <main.h>
 
 /**
  * main - function print_alphabet
@@ -7,11 +7,11 @@
  */
 void print_alphabet(void)
 {
-	int i;
+	char i;
 
 	for (i = 97; i < 123; i++)
 	{
-		putchar(i);
+		_putchar(i);
 	}
-	putchar("\n");
+	_putchar("\n");
 }
