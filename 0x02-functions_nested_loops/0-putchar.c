@@ -8,14 +8,6 @@
  */
 int main(void)
 {
-	char c[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
-	int n = 0;
-
-	while (n <= 7)
-	{
-		putchar(c[n]);
-		n++;
-	}
-	putchar("\n");
+	println("_putchar");
 	return (0);
 }
