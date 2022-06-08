@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include "main.h"
+#include <unistd.h>
 
 /**
  * main - function print_alphabet
@@ -15,5 +14,4 @@ void print_alphabet(void)
 		putchar(i);
 	}
 	putchar("\n");
-	return (0);
 }
