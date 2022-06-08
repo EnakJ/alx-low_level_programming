@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
  *main - print putchar
@@ -7,6 +7,12 @@
  */
 int main(void)
 {
-	println("_putchar\n");
+	char c[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	int n = 0;
+	while (n <= 7)
+	{
+		putchar(c[n]);
+		n++;
+	}
 	return (0);
 }
