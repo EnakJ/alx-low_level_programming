@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
  *positive_or_negative - Check sign on int
