@@ -3,6 +3,7 @@
 /**
  * _islower - check lowercase character
  * Description: checks the lowercase character
+ *
  * Return: 1 if c is lowercase
  * Otherwise, return 0.
  */
@@ -14,8 +15,8 @@ int _islower(int c)
 	{
 		r = 1;
 	} else
-		{
-			r = 0;
-		}
+	{
+		r = 0;
+	}
 	return (r);
 }
