@@ -10,12 +10,14 @@ void print_more_numbers(void)
 {
 	int i;
 
-	for (j = 0; j <= 9; j++)
+	for (count = 0; count <= 9; count++)
 	{
 		for (i = 0; i <= 14; i++)
-		if (i > 9)
-			putchar((i / 10) + '0');
+		{
+			if (i > 9)
+				putchar((i / 10) + '0');
 			putchar((i % 10) + '0');
+		}
 		putchar('\n');
 	}
 }
