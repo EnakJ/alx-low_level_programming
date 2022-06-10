@@ -13,7 +13,9 @@ void print_more_numbers(void)
 	for (j = 0; j <= 9; j++)
 	{
 		for (i = 0; i <= 14; i++)
-			putchar((i % 20) + '0');
+		if (i > 9)
+			putchar((i / 10) + '0');
+			putchar((i % 10) + '0');
 		putchar('\n');
 	}
 }
