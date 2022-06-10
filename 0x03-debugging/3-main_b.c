@@ -3,8 +3,10 @@
 
 /**
 * main - takes a date and prints how many 
-* days are left in the year, taking
+* @day: days are left in the year, taking
 * leap year into account
+* @month: month in number format
+* @year: year
 * Return: 0
 */
 
