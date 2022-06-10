@@ -7,15 +7,16 @@
 void print_more_numbers(void)
 {
 	int i;
+	int j;
 
-	for (count = 0; count <= 9; count++)
+	for (j = 0; j <= 9; j++)
 	{
 		for (i = 0; i <= 14; i++)
 		{
 			if (i > 9)
-				_putchar((i / 10) + '0');
-			_putchar((i % 10) + '0');
+				putchar((i / 10) + '0');
+			putchar((i % 10) + '0');
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 }
