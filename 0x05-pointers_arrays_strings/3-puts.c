@@ -9,12 +9,7 @@
  */
 void _puts(char *str)
 {
-	char *c;
-	
-	for (c = &str; str != '\0'; c++)
-	{
-		str = *c;
-		putchar(str);
-	}
-	putchar('\n');
+	while (*str)
+		_putchar(*str++);
+	_putchar('\n');
 }
