@@ -2,7 +2,7 @@
 
 /**
  * _islower - check lowercase character
- *
+ *@c: integer
  * Description: checks the lowercase character
  * Return: 1 if c is lowercase Otherwise, return 0.
  */
@@ -13,7 +13,8 @@ int _islower(int c)
 	if (c <= 122 && c >= 97)
 	{
 		m = 1;
-	} else
+	} 
+	else
 	{
 		m = 0;
 	}
