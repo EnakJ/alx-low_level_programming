@@ -8,15 +8,15 @@
  */
 int _islower(int c)
 {
-	int r;
+	int m;
 
 	if (c <= 122 && c >= 97)
 	{
-		r = 1;
+		m = 1;
 	} else
 	{
-		r = 0;
+		m = 0;
 	}
 
-	return (r);
+	return (m);
 }
