@@ -18,6 +18,5 @@ int _islower(int c)
 	{
 		m = 0;
 	}
-
 	return (m);
 }
